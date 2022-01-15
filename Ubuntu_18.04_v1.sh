@@ -44,7 +44,7 @@ yes | sudo apt autoremove
 tput setaf 2
 echo "Installing Terminator"
 tput sgr0
-sudo apt install terminator
+yes | sudo apt install terminator
 yes | sudo apt update
 yes | sudo apt upgrade
 yes | sudo apt autoremove
