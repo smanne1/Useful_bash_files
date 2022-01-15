@@ -1,12 +1,11 @@
 tput setaf 2 # set color to green
 echo "The following packages will be installed:"
 echo "*. mpct=cd /mnt/hgfs/mpc/src"
-echo "*. alias mpc="nautilus /mnt/hgfs/mpc/src""
+echo "*. alias mpc="nautilus /mnt/hgfs/catkin_ws/src""
 echo "*. vscode"
 echo "*. google chrome"
 echo "*. terminator"
 echo "*. ROS Melodic"
-echo "*. catkin_ws"
 tput sgr0 # reset color
 
 # export the command to open the terminal from mpc folder
@@ -71,7 +70,6 @@ yes | sudo apt update
 yes | sudo apt upgrade
 yes | sudo apt autoremove
 
-# create catkin_ws
 
 
 
