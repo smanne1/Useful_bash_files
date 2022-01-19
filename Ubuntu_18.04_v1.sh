@@ -9,10 +9,10 @@ echo "*. ROS Melodic"
 tput sgr0 # reset color
 
 # export the command to open the terminal from mpc folder
-echo "alias mpct=\"cd /mnt/hgfs/mpc/src\"" >> ~/.bashrc
+echo "alias mpct=\"cd /mnt/hgfs/catkin_ws/src\"" >> ~/.bashrc
 
 # export the command to open the mpc folder
-echo "alias mpc=\"nautilus /mnt/hgfs/mpc/src\"" >> ~/.bashrc
+echo "alias mpc=\"nautilus /mnt/hgfs/catkin_ws/src\"" >> ~/.bashrc
 
 # install vscode
 tput setaf 2
